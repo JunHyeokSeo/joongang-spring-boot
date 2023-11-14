@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/boot01/pom.xml" />
         <option value="$PROJECT_DIR$/boot02/pom.xml" />
         <option value="$PROJECT_DIR$/myBatis01/pom.xml" />
+        <option value="$PROJECT_DIR$/sbboard/pom.xml" />
+        <option value="$PROJECT_DIR$/sbmapper/pom.xml" />
       </list>
     </option>
   </component>

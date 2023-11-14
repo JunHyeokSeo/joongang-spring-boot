@@ -15,8 +15,8 @@ public class BoardController {
 	@Autowired
 	private BoardService service;
 	
-//	@RequestMapping("/")
-	@RequestMapping("boardform")
+	@RequestMapping("/")
+//	@RequestMapping("boardform")
 	public String main() {
 		System.out.println("controller in");
 		return "boardform";

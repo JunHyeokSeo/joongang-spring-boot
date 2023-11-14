@@ -3,7 +3,6 @@ package com.example.demo.service;
 import java.util.List;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.demo.dao.BoardDao;
 import com.example.demo.model.Board;
@@ -20,5 +19,4 @@ public class BoardService {
 	public List<Board> boardlist() {
 		return dao.boardlist();
 	}
-	
 }

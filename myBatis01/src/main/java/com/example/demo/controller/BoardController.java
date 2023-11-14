@@ -25,8 +25,7 @@ public class BoardController {
 	@RequestMapping("boardInsert")
 	public String boardInsert(Board board) {
 		int result = service.boardInsert(board);
-		System.out.println("result:"+result);		
-		
+		System.out.println("result:"+result);
 		return "redirect:boardlist";
 	}
 	

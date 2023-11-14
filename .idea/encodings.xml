@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/boot02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myBatis01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/myBatis01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbmapper/src/main/java" charset="UTF-8" />
   </component>
 </project>
