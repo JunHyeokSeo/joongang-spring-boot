@@ -10,6 +10,22 @@
         <module name="boot01" />
         <module name="boot02" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="myBatis02.main" />
+      </profile>
+      <profile name="Annotation profile for myBatis01" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar" />
+        </processorPath>
+        <module name="myBatis01" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot01.main" target="11" />
@@ -20,6 +36,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot01" options="-parameters" />
       <module name="boot02" options="-parameters" />
+      <module name="myBatis01" options="-parameters" />
     </option>
   </component>
 </project>

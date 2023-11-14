@@ -10,18 +10,18 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-//@RestControlle
 @Controller
 public class SampleController {
-	//브라우저에서 요청을 보내고 응답을 수신하는 형태
 	@RequestMapping("/hi")
 	@ResponseBody
+	//void 타입이라 뷰를 반환하지는 않지만, 메소드 내부에서 응답 객체의 출력 스트림으로 문자열을 전송하기 때문에 브라우저에서 수신 가능
 	public void hello(HttpServletResponse response) throws IOException {
 		response.getWriter().print("Hello world~!!!");
 	}
 
 	@RequestMapping("/abc")
 	@ResponseBody
+	//문자열을 응답 패킷의 body에 반환
 	public String abc() {
 		return "hi abc";
 	}
