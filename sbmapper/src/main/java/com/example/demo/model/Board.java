@@ -14,5 +14,4 @@ public class Board {
 	private String content;
 	private int readcount;
 	private Date register;
-	
 }

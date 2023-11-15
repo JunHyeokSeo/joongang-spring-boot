@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/boot01" />
     <file type="web" url="file://$PROJECT_DIR$/myBatis02" />
+    <file type="web" url="file://$PROJECT_DIR$/mysqlboard03" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +14,11 @@
         <option value="$PROJECT_DIR$/myBatis01/pom.xml" />
         <option value="$PROJECT_DIR$/sbboard/pom.xml" />
         <option value="$PROJECT_DIR$/sbmapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mysqlboard01/pom.xml" />
+        <option value="$PROJECT_DIR$/mysqlboard02/pom.xml" />
+        <option value="$PROJECT_DIR$/sbmember/pom.xml" />
+        <option value="$PROJECT_DIR$/Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/ThymeleafBoard/pom.xml" />
       </list>
     </option>
   </component>
