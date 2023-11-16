@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/sbmember/pom.xml" />
         <option value="$PROJECT_DIR$/Thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/ThymeleafBoard/pom.xml" />
+        <option value="$PROJECT_DIR$/jpaoracle01/pom.xml" />
+        <option value="$PROJECT_DIR$/jpaoracle02/pom.xml" />
       </list>
     </option>
   </component>

@@ -38,32 +38,23 @@
 				onmouseover="this.style.backgroundColor='F8F8F8'"
 				onmouseout="this.style.backgroundColor=''">
 				
-				<td th:with="num=${num - i.index}"  th:text="${num}"></td>				
-				
+				<td th:with="num=${num - i.index}"  th:text="${num}"></td>
 				<td>
-					<div align="left">						
-						
+					<div align="left">
 					<span th:if="${b.board_re_lev != 0}"> 					
 						<span th:each="k : ${#numbers.sequence(1, b.board_re_lev)}">
-							&nbsp;&nbsp;	
-						</span>			
+							&nbsp;&nbsp;
+						</span>
 						<img src="./images/AnswerLine.gif">	
-					</span>					
-							
-					<a th:href="@{/board_cont(board_num=${b.board_num},page=${page},state='cont')}" th:text="${b.board_subject}"> 
-					</a>
-					
+					</span>
+					<a th:href="@{/board_cont(board_num=${b.board_num},page=${page},state='cont')}" th:text="${b.board_subject}"></a>
 					</div>
 				</td>
-
 				<td th:text="${b.board_name}"></td>
-				
 				<td th:text="${#dates.format(b.board_date, 'yyyy-MM-dd')}"></td>
 				<!-- <td th:text="${b.board_date}"></td> -->
-				
 				<td th:text="${b.board_readcount}"></td>
-			</tr>		
-						
+			</tr>
 		</table>
 
 		<div id="bbslist_paging">			

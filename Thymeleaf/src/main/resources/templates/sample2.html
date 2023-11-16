@@ -13,7 +13,8 @@
 <div th:text='${"<h3>"+member.no+"</h3>"}'></div> 
 
 <!-- th:utext : 데이터 출력   -->
-<div th:utext='${"<h3>"+member.no+"</h3>"}'></div> 
+<!-- 태그는 태그로 인식 -->
+<div th:utext='${"<h3>"+member.no+"</h3>"}'></div>
 <div th:utext='${"<h3>"+member.id+"</h3>"}'></div> 
 <div th:utext='${"<h3>"+member.pw+"</h3>"}'></div> 
 <div th:utext='${"<h3>"+member.name+"</h3>"}'></div> 

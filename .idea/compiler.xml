@@ -15,6 +15,8 @@
         <module name="boot01" />
         <module name="Thymeleaf" />
         <module name="ThymeleafBoard" />
+        <module name="jpaoracle01" />
+        <module name="jpaoracle02" />
         <module name="boot02" />
       </profile>
       <profile name="Annotation profile for myBatis01" enabled="true">
@@ -47,6 +49,8 @@
       <module name="ThymeleafBoard" options="-parameters" />
       <module name="boot01" options="-parameters" />
       <module name="boot02" options="-parameters" />
+      <module name="jpaoracle01" options="-parameters" />
+      <module name="jpaoracle02" options="-parameters" />
       <module name="myBatis01" options="-parameters" />
       <module name="mysqlboard01" options="-parameters" />
       <module name="mysqlboard01 (1)" options="-parameters" />
